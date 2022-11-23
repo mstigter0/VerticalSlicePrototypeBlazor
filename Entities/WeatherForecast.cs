@@ -1,7 +1,6 @@
-﻿namespace Vertical_Slice_Architecture.Features.FetchData
+﻿namespace Entities
 {
-    public partial class FetchData
-    {
+
         public class WeatherForecast
         {
             public DateTime Date { get; set; }
@@ -12,5 +11,4 @@
 
             public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
         }
-    }
 }

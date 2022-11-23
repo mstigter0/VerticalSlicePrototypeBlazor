@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 using Microsoft.JSInterop;
 using Vertical_Slice_Architecture;
-using Vertical_Slice_Architecture.Shared;
 
 namespace Vertical_Slice_Architecture.Features.NavMenu
 {
