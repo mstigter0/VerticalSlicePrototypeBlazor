@@ -1,0 +1,14 @@
+﻿@page "/numberDisplay"
+@inject INumberController NumberController
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @NumberController.CurrentNumber</p>
+
+<button class="btn btn-primary" @onclick="NumberController.IncrementNumber">+1</button>
+
+<button class="btn btn-primary" @onclick="NumberController.RandomNumber">Random</button>
+
+
